@@ -1,0 +1,28 @@
+/*======Base Styles======*/
+html {
+    color:#FFFFFF;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75 em;
+    text-align: left;
+    background-color: #1f2632;
+   }
+
+/*======JW's Custom Styles======*/
+
+
+/*------Mobile Styles------*/
+@media only screen and (min-width: 375px){}
+
+
+
+/*------Tablet Styles------*/
+@media only screen and (min-width: 768px){}
+
+
+/*------Desktop Styles------*/
+@media only screen and (min-width: 1440px){}
