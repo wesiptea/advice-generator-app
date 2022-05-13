@@ -1,18 +1,53 @@
 /*======Base Styles======*/
 html {
-    color:#FFFFFF;
+    color:#cee3e9;
     font-size: 1em;
     line-height: 1.4;
   }
 
   body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;    
     font-size: 1.75 em;
+    font-weight: 800;
     text-align: left;
     background-color: #1f2632;
    }
 
 /*======JW's Custom Styles======*/
+.advice-number {
+    color:#52ffa8;
+    font-size: .875em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.content-wrapper{
+    width: 20em;
+    height: 20em;
+    margin: auto;
+    padding: 1.25em;
+    border-radius: .94em;
+    background: #323a49;
+    text-align: center;
+}
+
+.dot {
+    height: 1.56em;
+    width: 1.56em;
+    background-color: #52ffa8;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/*------Attribution Link------*/
+.attribution a:link {
+    color: #cee3e9;
+  }
+
+  .attribution a:hover {
+      color:#52ffa8;
+  }
 
 
 /*------Mobile Styles------*/
@@ -26,3 +61,6 @@ html {
 
 /*------Desktop Styles------*/
 @media only screen and (min-width: 1440px){}
+
+/*Remember to add the pattern-divider for the desktop version as well in this section
+of the CSS*/
