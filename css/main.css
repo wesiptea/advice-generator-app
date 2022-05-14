@@ -21,24 +21,47 @@ html {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+/*=== Research using a parent wrapper for the content wrapper===*/
+
+.parent-wrapper{
+    height: 100%;
+    width: 100%;
+    flex-flow: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
 
 .content-wrapper{
     width: 20em;
     height: 20em;
-    margin: auto;
-    padding: 1.25em;
+    margin: 20em;
+    padding:1.25em;
     border-radius: .94em;
     background: #323a49;
     text-align: center;
+    flex-flow: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.dot {
+.advice-quote{
+   margin: 0 .25em .25em .25em;
+  
+}
+
+#dot {
     height: 1.56em;
     width: 1.56em;
     background-color: #52ffa8;
     border-radius: 50%;
-    display: inline-block;
+    display: flex;
 }
+
+
 
 /*------Attribution Link------*/
 .attribution a:link {
