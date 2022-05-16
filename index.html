@@ -1,59 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <!-- stylesheets -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  
-  <!--Google Fonts-->
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap" rel="stylesheet">
-
-  <title>Advice Generator App</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-<div class="parent-wrapper">
-  <div class="content-wrapper">
-    <div class="advice-quote">
-  
-      <div class="advice-number">
-        <h3>Advice #117<!-- Advice ID API info goes here --></h3>
-      </div>
-
-      <div class="quote">
-        <h2>"It is easy to sit up and take notice, what's difficult is getting up and taking action."  <!-- Advice text goes here -->
-        </h2>
-        <!-- Advice generator API async and fetch here -->
-      </div>
-
-      <img class="pattern-divider" src="img/pattern-divider-mobile.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
     
-      <div class="dot">
-        <span id="dot"></span>
-      </div>
-    
-      <img class="dice" src="img/icon-dice.svg">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap" rel="stylesheet">
+
+    <title>Advice Generator App</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  </head>
+  <body>
+    <div class="parent-wrapper">
+      <div class="content-wrapper">
+        <div class="advice-quote">
       
+          <div class="advice-number">
+            <h3>Advice #117<!-- Advice ID API info goes here --></h3>
+          </div>
+
+          <div class="quote">
+            <h2>"It is easy to sit up and take notice, what's difficult is getting up and taking action."  <!-- Advice text goes here -->
+            </h2>
+            <!-- Advice generator API async and fetch here -->
+          </div>
+
+          <div class="dot-dice">
+              <span id="dot"></span>
+              <img class="dice" src="img/icon-dice.svg">
+          </div>  
+          
+        </div>
+        <!-- End of advice container -->
+      </div>
+      <!-- End of content wrapper -->
     </div>
-    <!-- End of advice container -->
-  </div>
+    <!-- End of parent-container -->
 
-</div>
-<!-- End of parent-container -->
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-     Coded by <a href="#">Jamie Winston</a>.
-
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Jamie Winston</a>.
     </div>
+    
   </body>
 </html>

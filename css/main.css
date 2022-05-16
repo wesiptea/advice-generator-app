@@ -13,7 +13,9 @@ html {
     background-color: #1f2632;
    }
 
+
 /*======JW's Custom Styles======*/
+
 .advice-number {
     color:#52ffa8;
     font-size: .875em;
@@ -24,49 +26,72 @@ html {
 /*=== Research using a parent wrapper for the content wrapper===*/
 
 .parent-wrapper{
-    height: 100%;
-    width: 100%;
     flex-flow: column;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    /* To create a div the size of your screen: */
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 
 .content-wrapper{
-    width: 20em;
-    height: 20em;
-    margin: 20em;
-    padding: 1.25em;
+    width: 343px;
+    height: 314px;
+    
     border-radius: .94em;
     background: #323a49;
     text-align: center;
-    flex-flow: column;
+
+   
     display: flex;
     justify-content: space-around;
+    align-items: center;   
+}
+
+.advice-quote p {
+   width: 75%;
+}
+
+div .dot-dice {
+    height: 3.5em;
+    width: 3.5em;
+    background-color: #52ffa8;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 143px;
+}
+
+.dot-dice #dot {
+    display: flex;
+    flex-direction: center;
     align-items: center;
 }
 
-.advice-quote{
-   margin: 0 .25em .25em .25em;
-  
-}
-
-#dot {
-    height: 4em;
-    width: 4em;
-    background-color: #52ffa8;
-    border-radius: 50%;
+.dice img {
     display: flex;
-    align-items: column;
-    align-self: flex-end;
-    position: absolute;
+    flex-direction: center;
+    align-items: center;
 }
 
 
+/*------Attribution & Link------*/
 
-/*------Attribution Link------*/
+.attribution {
+    text-align: center;
+    font-size: .7em;
+    clear: both;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
 .attribution a:link {
     color: #cee3e9;
 }
