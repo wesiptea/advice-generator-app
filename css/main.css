@@ -13,9 +13,7 @@ html {
     background-color: #1f2632;
    }
 
-
 /*======JW's Custom Styles======*/
-
 .advice-number {
     color:#52ffa8;
     font-size: .875em;
@@ -23,8 +21,8 @@ html {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-/*=== Research using a parent wrapper for the content wrapper===*/
 
+/*=== Research using a parent wrapper for the content wrapper===*/
 .parent-wrapper{
     flex-flow: column;
     display: flex;
@@ -35,7 +33,6 @@ html {
     height: 100%;
     width: 100%;
 }
-
 
 .content-wrapper{
     width: 343px;
@@ -49,6 +46,10 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;   
+}
+
+.quote {
+    padding: 0 0 30px 0;
 }
 
 .advice-quote p {
@@ -79,13 +80,11 @@ div .dot-dice {
     align-items: center;
 }
 
-
 /*------Attribution & Link------*/
-
 .attribution {
     text-align: center;
     font-size: .7em;
-    clear: both;
+    font-weight: lighter;
 }
 
 .attribution a { 
